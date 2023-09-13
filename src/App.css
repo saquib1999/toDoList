@@ -1,0 +1,92 @@
+.root {
+  overflow: scroll;
+}
+.main_div {
+ width: 100%;
+ min-height: 100vh;
+ background: skyblue;
+ display: flex;
+ flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+overflow: scroll;
+}
+
+.center_div {
+  min-width: 300px;
+  width: 30%;
+  min-height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow-wrap: auto;
+  
+}
+
+h1 {
+  color: white;
+  background: transparent;
+  background-color: #8666aa;
+  padding: 6px 0px 2px 0;
+  margin-bottom:  10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background:  transparent;
+  font-size: 20px;
+  font-weight:  600;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+
+button {
+  min-height:  40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8666aa;
+  color: white;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+
+}
+
+button:hover{
+  background-color: lightgreen;
+}
+
+ol {
+  margin-top: 30px;
+}
+
+ol li {
+  padding-left:  0px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8666aa;
+  text-transform: capitalize;
+}
+
+ol li button:hover{
+  background-color: rgb(253, 67, 89);
+  
+}
